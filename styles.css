@@ -1,0 +1,217 @@
+/* General Styles */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #222;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: nowrap; /* Ensures items stay in one line */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s;
+    white-space: nowrap; /* Prevents text from wrapping */
+}
+
+nav a:hover {
+    color: orange;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+/* Home Page */
+.home-container {
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+button {
+    background: orange;
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: darkorange;
+}
+
+/* Form Styles (Used for Register & Login Pages) */
+.form-container {
+    background-color: #1e1e1e;
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.form-container h1 {
+    font-size: 24px;
+    color: #facc15;
+    margin-bottom: 20px;
+}
+
+label {
+    text-align: left;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: white;
+}
+
+.submit-btn {
+    background: orange;
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    background: darkorange;
+}
+
+/* Dashboard Page */
+.dashboard-container {
+    margin-top: 50px;
+}
+
+.dashboard-stats {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.stat-card {
+    background: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+}
+.btn {
+    display: inline-block;
+    background-color: #ff9800;
+    color: black;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+.btn:hover {
+    background-color: #e68900;
+    transform: scale(1.05);
+}
+
+
+/* Leaderboard */
+.leaderboard-container {
+    margin-top: 50px;
+}
+
+table {
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    border-bottom: 1px solid #ff9800;
+    text-align: center;
+}
+
+/* Challenges Page */
+.challenges-container {
+    margin-top: 50px;
+}
+
+.challenge-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.challenge {
+    background: #1f1f1f;
+    padding: 15px;
+    margin: 10px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.accept-btn {
+    background: #ff9800;
+    border: none;
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.accept-btn:hover {
+    background: #e68900;
+}
