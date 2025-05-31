@@ -10,7 +10,7 @@ app.use(cors());
 // Connect to MySQL Database
 const db = mysql.createConnection({
     host: "localhost",
-    user: "your_mysql_username",      
+    user: "root",      
     password: "your_mysql_password",  
     database: "fitnessApp"
 });
